@@ -1,4 +1,3 @@
-import "./App.scss";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Learn from "./components/learn/Learn";
