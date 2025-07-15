@@ -16,7 +16,7 @@ const Learn = () => {
           </p>
           {CHECK.map((item, inx) => {
             return (
-              <div className="max-[990px]:mx-auto">
+              <div key={inx} className="max-[990px]:mx-auto">
                 <p key={inx} className="flex gap-[10px] font-medium">
                   <CiCircleCheck />
                   {item}
